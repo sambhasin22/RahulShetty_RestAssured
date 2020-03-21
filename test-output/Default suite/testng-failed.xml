@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)" preserve-order="true">
+    <classes>
+      <class name="Library_API.Library_POST_API">
+        <methods>
+          <include name="lib_PostTest"/>
+          <include name="lib_GetTest"/>
+          <include name="lib_DeleteTest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- Library_API.Library_POST_API -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
