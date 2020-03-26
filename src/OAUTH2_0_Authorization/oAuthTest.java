@@ -12,7 +12,7 @@ public class oAuthTest {
 	
 		
 		String code =
-		"https://rahulshettyacademy.com/getCourse.php?code=4/xwGkMl7jkArdrS6xmXBk8mpuh94Si3nKxTGv0i0JJtHQPzAPLDqvoS0oUZS_yGt2I66cuuc1twOnbkruWrgc_Zw&scope=email+openid+https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=none";
+		"https://rahulshettyacademy.com/getCourse.php?code=4/xwGvld-Ld-Y0Fqx2n5RnQtGaFcz3v0wNH6yFBLmNZbbBSDgGAUhMxCpAxKLgrpZDxu5Vb86uPMp3ziRHj0CmnDQ&scope=email+openid+https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=none";
 		
 		String first = code.split("code=")[1];
 		String actualCode = first.split("&scope")[0];

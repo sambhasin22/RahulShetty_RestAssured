@@ -2,7 +2,7 @@ package POJO2_Practice;
 
 import java.util.List;
 
-public class cources1 {
+public class Courses1 {
 	
 	
 	private List<webAutomation> webAutomation;

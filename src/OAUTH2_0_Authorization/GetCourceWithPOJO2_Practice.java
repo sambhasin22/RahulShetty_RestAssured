@@ -16,7 +16,7 @@ public class GetCourceWithPOJO2_Practice {
 	
 		
 		String code =
-		"https://rahulshettyacademy.com/getCourse.php?code=4/xwFo6dpJYmLqHDhPwMHB7TCPdcy-NgFL3nopmC64YLE8gzoNPZ-elcyNRzq2H4SVRHYSLzjtSBBGKatA1VbRMtM&scope=email+openid+https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=none";
+		"https://rahulshettyacademy.com/getCourse.php?code=4/xwFam0xhQNZW0PgcNlxQNJMTLQBsfs39vX76KrrNYBF4H7u8xCc7L1H0J9I4nnzaRk4ueW3MCkzlz1rpxQYWhik&scope=email+https://www.googleapis.com/auth/userinfo.email+openid&authuser=0&prompt=none";
 		
 		String first = code.split("code=")[1];
 		String actualCode = first.split("&scope")[0];
